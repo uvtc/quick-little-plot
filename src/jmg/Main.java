@@ -3,7 +3,6 @@ package jmg;
 // John Gabriele, 2012. Distributed under the MIT license.
 // See LICENSE.txt for details.
 
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.ArrayList;
