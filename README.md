@@ -12,13 +12,13 @@ Only tested to run on Xubuntu (Debian-based) GNU/Linux with OpenJDK 7.
 Requires that you have Java installed.
 
 Requires that you download the [xchart](http://xeiam.com/xchart.jsp)
-v1.2.0 jar and put it into your ~/jars directory.
+v1.2.0 jar and drop it into your ~/jars directory.
 
 
 
 ## Install
 
-After you've grabbed and moved that xchart jar into your ~/jars
+After you've grabbed the xchart jar and moved it into your ~/jars
 directory (mentioned above):
 
  1. [Download](https://github.com/uvtc/quick-little-plot/downloads)
@@ -34,7 +34,7 @@ directory (mentioned above):
 
 ## Usage
 
-Put your data into a text file named whatever you like (say,
+Put some data into a text file named whatever you like (say,
 "some-data.txt"). One `x, y` data point per line, but the first line
 must be the name of the data set:
 
@@ -58,7 +58,7 @@ That should produce a some-data-plot.png file for you.
 
 
 
-## Example output
+## Example Output
 
 See the first example shown at <http://xeiam.com/xchart_examplecode.jsp>.
 
