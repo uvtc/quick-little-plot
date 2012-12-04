@@ -12,7 +12,7 @@ Only tested to run on Xubuntu (Debian-based) GNU/Linux with OpenJDK 7.
 Requires that you have Java installed.
 
 Requires that you download the [xchart](http://xeiam.com/xchart.jsp)
-jar and put it into your ~/jars directory.
+v1.2.0 jar and put it into your ~/jars directory.
 
 
 
