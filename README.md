@@ -3,6 +3,9 @@
 A tiny little program for making a plot of some data you've put into a
 text file.
 
+Only tested to run on Xubuntu (Debian-based) GNU/Linux with OpenJDK 7.
+
+
 
 ## Prerequisites
 
@@ -18,12 +21,14 @@ jar and put it into your ~/jars directory.
 After you've grabbed and moved that xchart jar into your ~/jars
 directory (mentioned above):
 
- 1. Download the quick-little-plot jar from the Downloads page and
-    move it to your ~/bin directory.
+ 1. [Download](https://github.com/uvtc/quick-little-plot/downloads)
+    the quick-little-plot.jar file and move it to your ~/bin
+    directory.
 
- 2. Save [the quick-little-plot.sh
-    file](https://raw.github.com/uvtc/quick-little-plot/master/quick-little-plot.sh)
-    to your ~/bin directory and make sure it's executable (`chmod +x
+ 2. Get [the quick-little-plot.sh
+    file](https://github.com/uvtc/quick-little-plot/blob/master/quick-little-plot.sh),
+    edit it changing "you" to your username, then move it to your
+    ~/bin directory. Make sure it's executable (`chmod +x
     quick-little-plot.sh`).
 
 
