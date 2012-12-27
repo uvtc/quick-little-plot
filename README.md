@@ -3,7 +3,7 @@
 A tiny little program for making a plot of some data you've put into a
 text file.
 
-Only tested to run on Xubuntu (Debian-based) GNU/Linux with OpenJDK 7.
+Only tested to run on Xubuntu (Debian-based) GNU/Linux with OpenJDK 6 & 7.
 
 
 
