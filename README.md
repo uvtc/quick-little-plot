@@ -21,7 +21,7 @@ v1.2.0 jar and drop it into your ~/jars directory.
 After you've grabbed the xchart jar and moved it into your ~/jars
 directory (mentioned above):
 
- 1. Clone this repo.
+ 1. Clone this repo, or else click the "ZIP" button above to download.
 
  2. Compile the code, then build & install the jar:
 
