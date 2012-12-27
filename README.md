@@ -21,14 +21,17 @@ v1.2.0 jar and drop it into your ~/jars directory.
 After you've grabbed the xchart jar and moved it into your ~/jars
 directory (mentioned above):
 
- 1. [Download](https://github.com/uvtc/quick-little-plot/downloads)
-    the quick-little-plot.jar file and move it to your ~/bin
-    directory.
+ 1. Clone this repo.
 
- 2. Get [the quick-little-plot.sh
-    file](https://github.com/uvtc/quick-little-plot/blob/master/quick-little-plot.sh),
-    edit it changing "you" to your username, then move it to your
-    ~/bin directory. Make sure it's executable (`chmod +x
+ 2. Compile the code, then build & install the jar:
+
+        cd quick-little-plot
+        javac -sourcepath src -d classes -cp ~/jars/xchart-1.2.0.jar src/jmg/Main.java
+        jar cvf quick-little-plot.jar -C classes jmg
+        cp quick-little-plot.jar ~/bin
+
+ 3. Edit quick-little-plot.sh to use your home dir name, then copy it
+    as well to your ~/bin. Make sure it's executable (`chmod +x
     quick-little-plot.sh`).
 
 
